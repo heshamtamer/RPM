@@ -9,6 +9,9 @@
     "dev": "nodemon server.js"
   },
   "author": "Reem Adel",
+  "engines": {
+    "node": "20.18.0"
+  },
   "license": "MIT",
   "dependencies": {
     "bcrypt": "^5.1.1",
