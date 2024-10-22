@@ -11,9 +11,6 @@ app.use(express.json());
 app.use("/api/patients", require("./routes/patientRoutes"));
 app.use("/api/users", require("./routes/userRoutes"));
 
-app.get("/test", (req, res) => {
-    res.send("Hello World");
-});
 
 
 app.use(errorHandler)
